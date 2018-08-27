@@ -41,6 +41,7 @@ namespace FormSaludoG1_2019_I
             btnAceptar.Size = new Size(100,20);
             btnAceptar.Text = "Aceptar";
             btnAceptar.TextAlign = ContentAlignment.MiddleCenter;
+            btnAceptar.Click += new EventHandler(btnAceptar_Click);
 
 
             this.Controls.Add(etIntroduceNombreM);
